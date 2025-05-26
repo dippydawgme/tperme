@@ -1,0 +1,24 @@
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Ambiente virtuale
+.venv/
+env/
+
+# File temporanei
+*.log
+*.tmp
+
+# Cartelle statiche/media generate dinamicamente
+static/*
+!static/.keep
