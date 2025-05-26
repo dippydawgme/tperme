@@ -5,6 +5,9 @@ import os
 
 app = Flask(__name__)
 
+# Assicurati che la cartella static esista
+os.makedirs("static", exist_ok=True)
+
 def cartoonify_image(image_path):
     img = cv2.imread(image_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
